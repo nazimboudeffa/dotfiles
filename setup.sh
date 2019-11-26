@@ -1,9 +1,6 @@
 #!/bin/bash
 dotfilesDir=$(pwd)
 
-apt install zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 function linkDotfile {
   dest="${HOME}/${1}"
   dateStr=$(date +%Y-%m-%d-%H%M)
