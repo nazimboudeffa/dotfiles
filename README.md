@@ -28,7 +28,7 @@ Suppose your default user is `ubuntu`
 sudo mkdir -p .vim/bundle
 cd .vim/bundle
 sudo git clone git://github.com/VundleVim/Vundle.vim.git
-vim +PluginInstall +qall
+vim +PluginInstall +qall <-- E492
 ```
 
 TODO: FIX ERROR E492
