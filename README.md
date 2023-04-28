@@ -1,1 +1,9 @@
 # Installation
+
+Basically I have made sh script to make everything automatically but, I have some issues
+
+First, go to https://ohmyz.sh/ and click on Install oh-my-zsh
+
+Then you'll have this command because I use Ubuntu Server and that curl is not installed by default
+
+`sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
