@@ -18,6 +18,8 @@ Then you'll have this command because I use Ubuntu Server and that curl is not i
 
 Do you want to change your default shell to zsh, type Y and press enter
 
+Now you can change the ohmyzsh theme
+
 ## VIM
 
 Suppose your default user is `ubuntu`
@@ -28,3 +30,5 @@ cd .vim/bundle
 sudo git clone git://github.com/VundleVim/Vundle.vim.git
 vim +PluginInstall +qall
 ```
+
+TODO FIX ERROR E492
