@@ -2,7 +2,7 @@
 
 Basically I have made sh script to make everything automatically but, I have some issues
 
-I use Ubuntu Server
+I use Ubuntu Server, let's try by hand first before automating the installation
 
 ## OH MY ZSH
 
@@ -20,3 +20,11 @@ Do you want to change your default shell to zsh, type Y and press enter
 
 ## VIM
 
+Suppose your default user is `ubuntu`
+
+```
+mkdir -p ubuntu/.vim/bundle
+cd ubuntu/.vim/bundle
+git clone git://github.com/VundleVim/Vundle.vim.git
+vim +PluginInstall +qall
+```
