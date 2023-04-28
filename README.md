@@ -23,7 +23,7 @@ Do you want to change your default shell to zsh, type Y and press enter
 Suppose your default user is `ubuntu`
 
 ```
-mkdir -p .vim/bundle
+sudo mkdir -p .vim/bundle
 cd .vim/bundle
 git clone git://github.com/VundleVim/Vundle.vim.git
 vim +PluginInstall +qall
