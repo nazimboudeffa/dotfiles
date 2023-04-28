@@ -31,4 +31,4 @@ sudo git clone git://github.com/VundleVim/Vundle.vim.git
 vim +PluginInstall +qall
 ```
 
-TODO FIX ERROR E492
+TODO: FIX ERROR E492
