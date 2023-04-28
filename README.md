@@ -20,6 +20,10 @@ Do you want to change your default shell to zsh, type Y and press enter
 
 Now you can change the ohmyzsh theme
 
+Go to https://github.com/ohmyzsh/ohmyzsh/wiki/Themes and choose your theme by following the steps
+
+Let's peek aussiegeek atm
+
 ## VIM
 
 Suppose your default user is `ubuntu`
