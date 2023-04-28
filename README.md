@@ -4,6 +4,8 @@ Basically I have made sh script to make everything automatically but, I have som
 
 I use Ubuntu Server, let's try by hand first before automating the installation
 
+Suppose your default user is `ubuntu`
+
 ## OH MY ZSH
 
 Install zsh
@@ -24,9 +26,9 @@ Go to https://github.com/ohmyzsh/ohmyzsh/wiki/Themes and choose your theme by fo
 
 Let's peek aussiegeek atm
 
-## VIM
+All you have to do is open `~/.zshrc` and add `ZSH_THEME=aussiegeek`
 
-Suppose your default user is `ubuntu`
+## VIM
 
 ```
 sudo mkdir -p .vim/bundle
